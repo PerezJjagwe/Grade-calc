@@ -27,5 +27,5 @@ elif Int_score < 70:
     print("Hello", Name, "eh you just missed it by a whisker , you got a C3")
 elif Int_score < 80:
     print("Hello", Name,"we are almost hitting the bulls eye, you got a D2")
-elif Int_score > 90:
+elif Int_score < 100:
     print("Hello", Name,"your the nigga your at the top of the food chain, you pocketed a D1")         
