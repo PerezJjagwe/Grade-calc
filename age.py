@@ -12,20 +12,20 @@ Name = input("What is your name?:")
 Score = input("What was your score?:")
 Int_score = int(Score)
 if Int_score < 10:
-    print("hey", Name,"F9")
+    print("Hey", Name,"things must have been rough, you got an F9")
 elif Int_score < 20:
-    print("Hello", Name ,"P8")
+    print("Hello", Name ,"imagine you survived on a thin line, you got a P8")
 elif Int_score < 30:
-    print("Hello",Name,"P7") 
+    print("Hello",Name,"its not the end but ey, you got a P7") 
 elif Int_score < 40:
-    print("Hello", Name,"C6")
+    print("Hello", Name,"yooo lets fight, a C6 is what it was")
 elif Int_score < 50:
-    print("Hello", Name,"C5")           
+    print("Hello", Name,"ey man not a bad run but you got a C5")           
 elif Int_score < 60:
-    print("Hello", Name,"C4")
+    print("Hello", Name,"almost their fam, its a C4")
 elif Int_score < 70:
-    print("Hello", Name, "C3")
+    print("Hello", Name, "eh you just missed it by a whisker , you got a C3")
 elif Int_score < 80:
-    print("Hello", Name,"D2")
-elif Int_score < 90:
-    print("Hello", Name,"D1")         
+    print("Hello", Name,"we are almost hitting the bulls eye, you got a D2")
+elif Int_score > 90:
+    print("Hello", Name,"your the nigga your at the top of the food chain, you pocketed a D1")         
